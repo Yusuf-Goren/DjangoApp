@@ -1,0 +1,184 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.app {
+    width: 100%;
+    max-width: 720px;
+    height: 95vh;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.notesheader {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.notescount {
+    font-size: 25px;
+}
+
+.notes {
+    background-color: burlywood;
+}
+
+
+.noteslist {
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 12px;
+    padding: 8px 16px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color: white
+}
+.noteslistitem{
+    text-decoration: none;
+    color:white;
+    transition: 1s;
+}
+
+.noteslistitem:hover {
+    color:  rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.backtohome {
+    padding: 10px;
+    text-decoration: none;
+    color:white;
+}
+
+.backtohome:visited {
+    text-decoration: none;
+    color: white;
+}
+
+textarea {
+    background-color: var(--color-white);
+    border: solid 1px red;
+    padding: 16px 12px;
+    width: 80%;
+    height: 30vh;
+    resize: none;
+    scrollbar-width: none;
+    font-size: 20px;
+}
+
+.notes {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.notes textarea:active,
+.notes textarea:focus {
+    outline: none;
+    border: none;
+}
+
+.notes textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.app {
+    width: 100%;
+    max-width: 480px;
+    height: 88vh;
+    margin: 0 auto;
+    background-color: rgb(78, 78, 78);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+
+.app-header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+    background-color: var(--color-lighter);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.editNote {
+  
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buttoncreate {
+    background-color:#008CBA;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.buttonedit {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.buttondelete {
+
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.line {
+    border: 1px solid red;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    padding: 10px;
+    cursor:pointer;
+}
+
+.aboutme {
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
