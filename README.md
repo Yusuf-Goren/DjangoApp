@@ -1,3 +1,7 @@
+Cloning the repository
+--> Clone the repository using the command below :
+git clone https://github.com/Yusuf-Goren/DjangoApp.git
+
 #--> Create a virtual environment :
 
 # If you are on Windows
