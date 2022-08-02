@@ -8,11 +8,9 @@ cd DjangoApp
 
 #--> Create a virtual environment :
 
-# If you are on Windows
+
 virtualenv env
-# If you are on Linux or Mac
-python -m venv env
---> Activate the virtual environment :
+
 
 # If you are on Windows
 .\env\Scripts\activate
