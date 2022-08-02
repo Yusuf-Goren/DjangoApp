@@ -6,7 +6,7 @@ git clone https://github.com/Yusuf-Goren/DjangoApp.git
 
 cd DjangoApp
 
-#--> Create a virtual environment :
+> Create a virtual environment :
 
 python3 -m venv 
 
