@@ -1,4 +1,4 @@
-Cloning the repository
+# Cloning the repository
 --> Clone the repository using the command below :
 git clone https://github.com/Yusuf-Goren/DjangoApp.git
 
@@ -17,7 +17,7 @@ virtualenv env
 # Activate venv
 .\env\Scripts\activate
 
-Running the App
+# Running the App
 --> To run the Notes App, we use :
 
 python manage.py runserver
