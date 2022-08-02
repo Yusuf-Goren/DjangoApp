@@ -18,7 +18,7 @@ virtualenv env
 .\env\Scripts\activate
 
 # Running the App
---> To run the Notes App, we use :
+> To run the Notes App, we use :
 
 python manage.py runserver
 
