@@ -27,6 +27,14 @@ const NotePage = () => {
         "X-CSRFToken": csrftoken,
       },
       body: JSON.stringify(note),
+    }).then((resp) => {
+      if (resp.ok)
+        Swal.fire({
+          icon: "success",
+          title: "You succesfully updated a note",
+          showConfirmButton: false,
+          timer: 1000,
+        });
     });
   };
 
@@ -56,7 +64,6 @@ const NotePage = () => {
       },
       body: JSON.stringify(note),
     }).then((resp) => {
-      console.log(resp.ok);
       if (resp.ok) {
         Swal.fire({
           icon: "success",
