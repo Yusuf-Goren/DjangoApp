@@ -8,14 +8,13 @@ cd DjangoApp
 
 > Create a virtual environment :
 
-python3 -m venv 
-
-# Go to venv
-virtualenv env
-
+python3 -m venv venv
 
 # Activate venv
 .\env\Scripts\activate
+
+# Install requirements
+pip install -r requirements.txt
 
 # Running the App
 > To run the Notes App, we use :
